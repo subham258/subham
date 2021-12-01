@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM apache2
 RUN apt-get update
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y install apache2
