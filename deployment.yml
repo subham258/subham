@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: apache-v1
+        image: joy-v1
         ports:
         - containerPort: 80
