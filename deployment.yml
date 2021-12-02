@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: joy-v1
+        image: subham258/jenkinspipeline:joy-v1
         ports:
         - containerPort: 80
