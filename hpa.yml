@@ -11,7 +11,7 @@ spec:
     name: myapp-deployment
   targetCPUUtilizationPercentage: 20
 
-Nginx deployment yaml create
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
