@@ -1,5 +1,5 @@
 #! /bin/bash
-HOSTNAME=ip-172-31-8-18
+HOSTNAME=ip-172-31-6-14
 sudo apt-get update -y
 sudo apt install -y curl gnupg2 software-properties-common apt-transport-https ca-certificates
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
