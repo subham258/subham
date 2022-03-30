@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: subham258/exam:v-1
         ports:
         - containerPort: 80
