@@ -1,0 +1,20 @@
+{
+  "account": "my-k8s-account",
+  "cloudProvider": "kubernetes",
+  "manifestArtifactId": "ceaec98b-7470-40d7-8b26-77d99edb2d59",
+  "moniker": {
+    "app": "githubproject"
+  },
+  "name": "Deploy (Manifest)",
+  "namespaceOverride": "default",
+  "skipExpressionEvaluation": false,
+  "source": "artifact",
+  "trafficManagement": {
+    "enabled": false,
+    "options": {
+      "enableTraffic": false,
+      "services": []
+    }
+  },
+  "type": "deployManifest"
+}
