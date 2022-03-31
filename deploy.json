@@ -1,24 +1,23 @@
 {
-  "account": "my-k8s-account",
-  "cloudProvider": "kubernetes",
-  "isNew": true,
-  "manifestArtifact": null,
-  "manifestArtifactId": "ceaec98b-7470-40d7-8b26-77d99edb2d59",
-  "moniker": {
-    "app": "githubproject"
-  },
-  "name": "subham",
-  "namespaceOverride": "default",
-  "skipExpressionEvaluation": false,
-  "source": "artifact",
-  "trafficManagement": {
-    "enabled": false,
-    "options": {
-      "enableTraffic": false,
-      "namespace": null,
-      "services": [],
-      "strategy": null
+    "application": "githubproject",
+    "pipelines": [
+    {
+        "application" :"githubproject",
+        "keepwaitingPipelines": false,
+        "limitConcurrent": true,
+        "name": "Made By Subham",
+        "stages": [
+            {
+                "name": "wait",
+                "refID": "1",
+                "requisiteStageRefIds": [],
+                "type": "wait",
+                "waitTime": 400
+            }
+        ],
+          "triggers": []
+          
     }
-  },
-  "type": "deployManifest"
+]
+       
 }
