@@ -2,7 +2,7 @@
     "application": "githubproject",
     "pipelines": [
     {
-        "application" :"githubproject",
+        "application" :"githubproject2",
         "keepwaitingPipelines": false,
         "limitConcurrent": true,
         "name": "Made By Subham",
