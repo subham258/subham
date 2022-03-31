@@ -1,4 +1,4 @@
-{
+/*{
   "schema": "v2",
   "application": "myApp", # Set this to the app you want to create the pipeline in.
   "name": "<pipeline name>", # Pipeline name, remember this for the next part.
@@ -21,7 +21,7 @@
   "artifactAccount": "front50ArtifactCredentials", # Static constant
   "reference": "spinnaker://<templateId>",
   "type": "front50/pipelineTemplate" # Static constant
-}
+}*/
 "stages": [
     {
         "refId": "wait2",
