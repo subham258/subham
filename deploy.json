@@ -5,7 +5,7 @@
   "moniker": {
     "app": "githubproject"
   },
-  "name": "Deploy (Manifest)",
+  "name": "Deploys (Manifest)",
   "namespaceOverride": "default",
   "skipExpressionEvaluation": false,
   "source": "artifact",
